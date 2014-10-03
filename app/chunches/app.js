@@ -5,10 +5,18 @@
         '$scope',
         function ($scope) {
             $scope.chunches = [
-                'bolita', 'charal', 'chuca'
-            ];
-            $scope.images = [
-                'img1', 'img3', 'img2'
+                {
+                    title:'item1',
+                    html:'app/chunches/gradientes.html'
+                },
+                {
+                    title:'item2',
+                    html:'app/chunches/gradiente2.html'
+                },
+                {
+                    title:'item3',
+                    html:'app/chunches/gradientes.html'
+                }
             ];
         }
     ]);
